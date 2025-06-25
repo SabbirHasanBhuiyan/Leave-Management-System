@@ -11,13 +11,11 @@ A comprehensive web-based leave management solution designed as part of Universi
 4. [Architecture](#architecture)
 5. [Installation](#installation)
 6. [Running the Application](#running-the-application)
-7. [Usage](#usage)
-8. [API Documentation](#api-documentation)
-9. [Database Schema](#database-schema)
-10. [Security Features](#security-features)
-11. [Contributing](#contributing)
-12. [License](#license)
-13. [Contact](#contact)
+7. [Database Schema](#database-schema)
+8. [Security Features](#security-features)
+8. [Contributing](#contributing)
+10. [License](#license)
+11. [Contact](#contact)
 
 ---
 
@@ -84,13 +82,6 @@ Developed as a university-level project, it demonstrates expertise in:
 ---
 
 ## Architecture
-```
-[React Frontend] --> [Express.js API] --> [MySQL Database]
-       |                    |                    |
-   [JWT Auth] -----> [Middleware] -----> [Normalized Schema]
-       |                    |                    |
-[Local Storage] --> [Route Guards] --> [Stored Procedures]
-```
 
 The system follows a three-tier architecture:
 - **Presentation Layer**: React-based responsive UI
